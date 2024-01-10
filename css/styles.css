@@ -1,0 +1,164 @@
+.announcement-bar {
+    background-color: #292D31;
+    color: #ffffff;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .announcement-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .announcement-links a {
+    color: #ffffff;
+    margin-right: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  .announcement-links a:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar {
+    background-color: white;
+    padding: 8px 0;
+  }
+  
+  #logo {
+    color: #292D31;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  #logo b {
+    color: #2c7ad6;
+  }
+  
+  .navbar-nav a {
+    color: #292D31;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav a:hover {
+    color: #2c7ad6;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 10px 15px;
+  }
+  
+  .registration-link {
+    color: #64a6f1;
+    text-decoration: underline;
+  }
+  
+  .footer {
+    width: 100%;
+  }
+  
+  .footer-top {
+    background-color: #3f4449;
+    color: #ffffff;
+    padding: 45px 0;
+  }
+  
+  .footer-top .container {
+    text-align: center; /* Center the text */
+  }
+  
+  .footer-bottom {
+    background-color: #292D31;
+    color: #ffffff;
+    padding: 2px 0;
+  }
+  
+  .footer-bottom .container {
+    text-align: center; /* Center the text */
+    margin-top:10px;
+  }
+  
+  .footer-link {
+    font-size: 15px;
+    margin-right: 15px;
+    color: #ffffff;
+  }
+  
+  .footer-link:hover {
+    color: #D7EB6A;
+  }
+  
+  .footer-description {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .main-content {
+    text-align: center;
+    padding-top:20px;
+  }
+
+  .error-message {
+    color: #d61c2f;
+    margin-top: 10px;
+}
+
+.success-message {
+  color: #0b9946;
+  margin-top: 10px;
+}
+
+.card-img-borrow {
+  object-fit: cover;
+  height: 100%;
+}
+
+.login-content {
+  min-height:100vh;
+  background-image: url('../img/index_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  background-attachment:fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .login-content {
+    background-size: cover; /* Adjust properties for smaller screens */
+  }
+}
+
+.login-form {
+  width: 600px;
+  background-color: #ffffff;
+  border-radius: 10px; 
+  padding: 50px 30px 30px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Adjust the styles for smaller screens if needed */
+@media (max-width: 768px) {
+  .login-form {
+    width: 80%; /* Adjust the width for smaller screens */
+  }
+}
+
+.card-col {
+  height:200px;
+}
+.admin-profile {
+  min-height:70vh;
+}
+
+.user-profile {
+  min-height:70vh;
+}
